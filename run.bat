@@ -1,0 +1,3 @@
+@echo off
+echo Starting SAMA App...
+flutter run -d chrome --dart-define-from-file=.env

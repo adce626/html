@@ -1,0 +1,29 @@
+include: package:flutter_lints/flutter.yaml
+
+analyzer:
+  exclude:
+    - build/**
+    - android/**
+    - ios/**
+    - web/**
+    - windows/**
+    - macos/**
+    - linux/**
+    - '**/*.g.dart'
+  errors:
+    deprecated_member_use: ignore
+
+linter:
+  rules:
+    - avoid_print
+    - prefer_final_locals
+    - sort_child_properties_last
+    - require_trailing_commas
+    - prefer_single_quotes
+    - avoid_empty_else
+    - prefer_is_empty
+    - prefer_is_not_empty
+    - unnecessary_string_interpolations
+    - use_key_in_widget_constructors
+    - prefer_final_fields
+    - no_leading_underscores_for_local_identifiers
